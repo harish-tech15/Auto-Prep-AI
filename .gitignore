@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Secrets and environment variables
+.env
+.streamlit/secrets.toml
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Dataset files
+data/*.csv
+datasets/
+*.xlsx
+
+# Generated outputs
+outputs/
+reports/
+*.joblib
+*.pkl
+
+# System files
+.DS_Store
+Thumbs.db
